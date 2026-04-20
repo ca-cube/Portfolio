@@ -10,7 +10,7 @@ export default defineConfig({
       deployment: {
         target: "static",
       },
-      prerender: true,
+      prerender: {},
     }),
     react(),
   ],
