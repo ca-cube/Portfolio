@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     tsconfigPaths(),
     tanstackStart({
-      // Forcing static export for maximum reliability on Vercel
       deployment: {
         target: "static",
       },
+      prerender: true,
     }),
     react(),
   ],
