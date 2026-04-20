@@ -90,12 +90,20 @@ src/
 
 ## 🌐 Deployment
 
+### Cloudflare Pages (Recommended)
 This project is optimized for **Cloudflare Pages**.
-
-To deploy manually using Wrangler:
 ```bash
 bun wrangler pages deploy dist
 ```
+
+### Vercel
+If you prefer deploying to **Vercel**, follow these steps for a successful build:
+
+1. **Environmental Variables**: Set `ENABLE_BUN=1` in your Vercel Project Settings to ensure the build uses Bun.
+2. **Build Configuration**:
+   - Build Command: `bun build`
+   - Install Command: `bun install`
+3. **Clean Build**: Ensure `package-lock.json` is deleted from your repository to avoid NPM/Bun conflicts.
 
 ---
 
