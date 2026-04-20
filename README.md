@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="public/banner.png" width="100%" alt="ACube Banner" />
-</p>
-
 # 💎 ACube — AI Systems Studio
+
+![ACube Banner](public/banner.png)
 
 [![Vite](https://img.shields.io/badge/Vite-747bff?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -17,7 +15,7 @@ ACube is a premium, high-performance portfolio studio website designed for an AI
 ## ✨ Features
 
 - **🚀 Performance-First**: Built on **TanStack Start** for ultra-fast SSR/Full-stack capabilities.
-- **🎨 Premium Design**: 
+- **🎨 Premium Design**:
   - Implementation of **Tailwind CSS 4.0** with custom OKLCH design tokens.
   - Custom glassmorphism, neon glow effects, and micro-animations.
   - Dark-only theme designed for high-end AI branding.
@@ -52,22 +50,26 @@ You will need [Bun](https://bun.sh/) installed on your machine.
 ### Installation
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/your-username/Portfolio.git
    cd Portfolio
    ```
 
 2. **Install dependencies:**
+
    ```bash
    bun install
    ```
 
 3. **Start the development server:**
+
    ```bash
    bun dev
    ```
 
 4. **Build for production:**
+
    ```bash
    bun build
    ```
@@ -91,12 +93,15 @@ src/
 ## 🌐 Deployment
 
 ### Cloudflare Pages (Recommended)
+
 This project is optimized for **Cloudflare Pages**.
+
 ```bash
 bun wrangler pages deploy dist
 ```
 
 ### Vercel
+
 If you prefer deploying to **Vercel**, follow these steps for a successful build:
 
 1. **Environmental Variables**: Set `ENABLE_BUN=1` in your Vercel Project Settings to ensure the build uses Bun.
@@ -113,6 +118,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-<p align="center">
-  Built with ❤️ by <b>ACube</b>
-</p>
+Built with ❤️ by **ACube**
